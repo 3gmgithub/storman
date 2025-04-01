@@ -6,9 +6,9 @@ Project GitHub: [https://github.com/3gmgithub/storman](https://github.com/3gmgit
 
 Project Docker Hub: [https://hub.docker.com/r/xtekllc/storman](https://hub.docker.com/r/xtekllc/storman)
 
-StorMan data is stored in `/usr/StorMan` so we have added a vol for the data to persist in the docker-compose
+StorMan data is stored in `/usr/StorMan` so we have added a vol for the data to persist in the compose.yml
 
-docker-compose.yml
+compose.yml
 ```bash
 networks:
   stor_net:
